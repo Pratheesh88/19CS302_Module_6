@@ -4,11 +4,15 @@
 To write a C program to demonstrate a self-referential structure where an employee has a pointer to their manager.
 
 ## Algorithm
-Start. Create a structure and data member using pointer. Prompt the user to enter a value. Print the structure values. End.  
+1. Start.
+2. Create a structure and data member using pointer.
+3. Prompt the user to enter a value.
+4. Print the structure values.
+5. End.
+ 
 
 ## Program:
 ```
-
 #include <stdio.h>
 #include <stdlib.h>
 struct Employee {
@@ -38,11 +42,12 @@ NULL) ? "None" : emp1->manager->name);
  free(emp3);
  return 0;
 }
-
 ```
 
 ## Output:
-<img width="453" height="415" alt="image" src="https://github.com/user-attachments/assets/8f952a2d-84f3-48b5-8457-54d7a8a53ec4" />
+<img width="1130" height="454" alt="image" src="https://github.com/user-attachments/assets/9c579ac7-69e3-4984-9948-02b54f928083" />
+
+
 
 ## Result:
 Thus the program was executed and the output was verified successfully.
