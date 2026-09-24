@@ -4,15 +4,14 @@
 To write a C program that demonstrates the use of enum (enumeration) type to define and use named integer constants.
 
 ## Algorithm
-1.Start.
-
-2.Declare enum
-
-3.type Declare all days in a week Print result End
+1. Start.
+2. Declare enum type
+3. Declare all days in a week
+4. Print result
+5. End.
 
 ## Program:
 ```
-
 #include <stdio.h>
 enum weekdays {
  Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
@@ -23,11 +22,11 @@ int main() {
  printf("Today is Wednesday.\n");
  }
 }
-
 ```
 
 ## Output:
-<img width="465" height="198" alt="image" src="https://github.com/user-attachments/assets/5734bff4-eb76-49d4-9dd8-9b0a1156986d" />
+<img width="1127" height="184" alt="image" src="https://github.com/user-attachments/assets/e46d43d9-e6a7-4b0c-838a-c1ddfbcdcddc" />
+
 
 ## Result:
 Thus the program was executed and the output was verified successfully.
